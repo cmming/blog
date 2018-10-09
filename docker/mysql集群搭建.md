@@ -321,6 +321,10 @@
     重新创建其余4个节点，组件PXC集群
 
 
+注：所有配置文件的下载地址如下
+    https://github.com/cmming/blog/blob/master/docker/mysql%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA.md
+
+
 
     
 
