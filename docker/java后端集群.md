@@ -57,7 +57,7 @@
 5. 安装Nginx镜像
 
     ```shell
-      #启动第fn1节点
+      #启动第n1节点
       docker run -it -d --name n1 -v /home/soft/n1/nginx.conf:/etc/nginx/nginx.conf -v /home/soft/n1/keepalived:/etc/keepalived --net=host --privileged nginx
       #进入n1节点
       docker exec -it n1 bash
@@ -73,7 +73,7 @@
       service keepalived start
 
 
-        #启动第fn2节点
+        #启动第n2节点
       docker run -it -d --name n2 -v /home/soft/n2/nginx.conf:/etc/nginx/nginx.conf -v /home/soft/n2/keepalived:/etc/keepalived --net=host --privileged nginx
       #进入n1节点
       docker exec -it n2 bash
