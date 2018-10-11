@@ -26,6 +26,9 @@
 
 4. 创建3节点Java容器
 
+  数据卷的位置
+  /var/lib/docker/volumes
+
    ```shell
    #创建数据卷，上传JAR文件
    docker volume create j1
